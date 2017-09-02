@@ -1,6 +1,5 @@
 {
   "name": "csgo",
   "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {}
+  "type": "ionic1"
 }
