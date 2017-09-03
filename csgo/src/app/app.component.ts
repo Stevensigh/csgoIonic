@@ -6,6 +6,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 
+//CSGO MAPS
+import { MiragePage } from '../pages/mirage/mirage';
+import { CachePage } from '../pages/cache/cache';
+import { TrainPage } from '../pages/train/train';
+import { OverpassPage } from '../pages/overpass/overpass';
+import { NukePage } from '../pages/nuke/nuke';
+import { InfernoPage } from '../pages/inferno/inferno';
+import { Dust2Page } from '../pages/dust2/dust2';
+import { CobblestonePage } from '../pages/cobblestone/cobblestone';
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -22,7 +32,15 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Cache', component: CachePage},
+      { title: 'Cobblestone', component: CobblestonePage},
+      { title: 'DustII', component: Dust2Page},
+      { title: 'Inferno', component: InfernoPage},
+      { title: 'Mirage', component: MiragePage},
+      { title: 'Nuke', component: NukePage},
+      { title: 'Overpass', component: OverpassPage},
+      { title: 'Train', component: TrainPage}
+
     ];
 
   }

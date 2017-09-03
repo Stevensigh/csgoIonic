@@ -10,4 +10,8 @@ import { MiragePage } from './mirage';
     IonicPageModule.forChild(MiragePage),
   ],
 })
-export class MiragePageModule {}
+export class MiragePageModule {
+  constructor(private navCtrl:IonicPageModule) {
+    
+      }
+}

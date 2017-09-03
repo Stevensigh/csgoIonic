@@ -6,6 +6,14 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 
+import { MiragePage } from '../pages/mirage/mirage';
+import { CachePage } from '../pages/cache/cache';
+import { TrainPage } from '../pages/train/train';
+import { OverpassPage } from '../pages/overpass/overpass';
+import { NukePage } from '../pages/nuke/nuke';
+import { InfernoPage } from '../pages/inferno/inferno';
+import { Dust2Page } from '../pages/dust2/dust2';
+import { CobblestonePage } from '../pages/cobblestone/cobblestone';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -13,7 +21,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    MiragePage,
+    CachePage
+
   ],
   imports: [
     BrowserModule,
@@ -23,7 +34,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    MiragePage,
+    CachePage
   ],
   providers: [
     StatusBar,
