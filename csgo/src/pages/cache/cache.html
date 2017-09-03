@@ -9,15 +9,12 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Cache</ion-title>
   </ion-navbar>
-  <ion-navbar>
-    <ion-title>cache</ion-title>
-  </ion-navbar>
-
 </ion-header>
 
 
-<ion-content padding>
-
-</ion-content>
+<ion-tabs>
+    <ion-tab tabTitle="CT" [root]="cacheCTTab" tabIcon="countert"></ion-tab>  
+    <ion-tab tabTitle="T" [root]="cacheTTab" tabIcon="terrorist"></ion-tab>
+</ion-tabs>

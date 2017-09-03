@@ -14,6 +14,10 @@ import { NukePage } from '../pages/nuke/nuke';
 import { InfernoPage } from '../pages/inferno/inferno';
 import { Dust2Page } from '../pages/dust2/dust2';
 import { CobblestonePage } from '../pages/cobblestone/cobblestone';
+import {CacheCtPage} from '../pages/cacheMain/cache-ct/cache-ct';
+import { CacheTPage} from '../pages/cacheMain/cache-t/cache-t';
+
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -23,7 +27,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     MiragePage,
-    CachePage
+    CachePage,
+    CacheCtPage,
+    CacheTPage
 
   ],
   imports: [
@@ -36,7 +42,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     MiragePage,
-    CachePage
+    CachePage,
+    CacheCtPage,
+    CacheTPage
   ],
   providers: [
     StatusBar,

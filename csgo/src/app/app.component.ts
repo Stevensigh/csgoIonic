@@ -15,7 +15,8 @@ import { NukePage } from '../pages/nuke/nuke';
 import { InfernoPage } from '../pages/inferno/inferno';
 import { Dust2Page } from '../pages/dust2/dust2';
 import { CobblestonePage } from '../pages/cobblestone/cobblestone';
-
+import {CacheCtPage} from '../pages/cacheMain/cache-ct/cache-ct';
+import { CacheTPage} from '../pages/cacheMain/cache-t/cache-t';
 @Component({
   templateUrl: 'app.html'
 })

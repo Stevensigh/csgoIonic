@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { CacheCtPage } from '../cacheMain/cache-ct/cache-ct';
-import {CacheTPage } from '../cacheMain/cache-t/cache-t';
+
 /**
- * Generated class for the CachePage page.
+ * Generated class for the CacheCtPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
@@ -11,18 +10,16 @@ import {CacheTPage } from '../cacheMain/cache-t/cache-t';
 
 @IonicPage()
 @Component({
-  selector: 'page-cache',
-  templateUrl: 'cache.html',
+  selector: 'page-cache-ct',
+  templateUrl: 'cache-ct.html',
 })
-export class CachePage {
+export class CacheCtPage {
 
-  cacheCTTab = CacheCtPage;
-  cacheTTab = CacheTPage;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CachePage');
+    console.log('ionViewDidLoad CacheCtPage');
   }
 
 }
