@@ -12,10 +12,37 @@
 
 </ion-header>
 
-
 <ion-content padding>
-  <p>
-    CACHE CT TEST
-  </p>
+
+  <ion-card (click)="goASite()">
+    <img src="img/cache/cache_asite.png"/>
+    <ion-card-header>A-Site</ion-card-header>
+    <ion-card-content>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+      <img src="img/cache/cache_bsite.png"/>
+      <ion-card-header>B-Site</ion-card-header>
+      <ion-card-content>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <img src="img/cache/cache_midsite.png"/>
+        <ion-card-header>Mid</ion-card-header>
+        <ion-card-content>
+        </ion-card-content>
+      </ion-card>
+
+  <!--
+  <ion-list>
+    <button ion-item *ngFor="let item of sites" (click)="siteTapped($event, item)">
+      <ion-icon name="star"> </ion-icon>
+      {{item.loc}}
+    
+    </button>
+  </ion-list>
+
+-->
 
 </ion-content>
